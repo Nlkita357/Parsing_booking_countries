@@ -1,4 +1,4 @@
-The parser collects hotel data from the specified countries from booking.com from all pages and puts it into excel\
+The parser collects hotel data from the specified countries from booking.com from all pages and puts it into excel
 
 Usage\
 list of countries to spar\
