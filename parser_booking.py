@@ -139,7 +139,7 @@ def get_data_from_excel(df):
 #limit - minimum hotel price
 #currency - currency
 
-def main_pars_hotels(countries, limit=0, currency="usd"):
+def pars_hotels(countries, limit=0, currency="usd"):
     countries.append(None)
 
     driver = create_webdriver()
@@ -194,6 +194,5 @@ def main_pars_hotels(countries, limit=0, currency="usd"):
         time.sleep(4)
     print("Complete!")
 
-if __name__ == "__main__":
-    countries = [] #enter countries
-    main_pars_hotels(countries)
+countries = [] #enter countries
+pars_hotels(countries)
