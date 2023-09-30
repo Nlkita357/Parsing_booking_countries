@@ -12,3 +12,6 @@ currency - currency (string type)
 Example\
 countries = ["dubai"] #enter countries\
 pars_hotels(countries, limit=100, currency="usd") #look for hotels in dubai that cost 100 doollars or more.
+
+Key Dependencies\
+Selenium
